@@ -1,0 +1,58 @@
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*desain navbar*/
+
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nav {
+  border: 1px solid salmon;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.nav-brand {
+  font-size: 2em;
+}
+
+.nav-list {
+  border: 1px solid red;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  border: 1px solid lightblue;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.nav-brand:hover,
+.nav a:hover {
+  opacity: 0.5;
+  transition: 0.4s ease-in;
+}

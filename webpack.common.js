@@ -8,7 +8,9 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
   },
+  
   module: {
+
     rules: [
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
@@ -45,4 +47,8 @@ module.exports = {
       ],
     }),
   ],
-};
+    performance: {
+      hints: false
+  }
+}
+

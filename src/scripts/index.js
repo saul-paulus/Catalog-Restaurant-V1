@@ -10,14 +10,23 @@ menuTombol.addEventListener("click", function () {
   navUl.classList.toggle("open-menu");
 });
 
-//maping data restaurant
+
+
+// Maping data restaurant
+const listPost = document.querySelector(".post");
+let listRest = "";
+
 dataRestorant.restaurants.forEach((dataRest) => {
-  const listPost = document.querySelector(".post");
-
-  let listData = "";
-
-  listPost += `
-
-
+  listRest += `
+  <article class="post-item">
+  <h2 class="post-item-title">${dataRest.city}</h2>
+  <img src=${dataRest.pictureId} width="450" alt="" />
+  <div class="post-item-description">
+    <h4>Rating: ${dataRest.rating}</h4>
+    <h3>${dataRest.name}</h3>
+    <p>${dataRest.description}</p>
+  </div>
+</article>
   `;
+listPost.innerHTML = listRest; 
 });

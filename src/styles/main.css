@@ -34,6 +34,7 @@ body {
 
 .nav-brand-mobile {
   display: none;
+  color: #ffdead;
 }
 .nav-brand {
   font-size: 2.5em;
@@ -103,11 +104,13 @@ hr {
 .headline-title {
   text-align: center;
   padding: 30px;
+  font-size: 3em;
+  color: white;
 }
 
 .post {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
   gap: 50px;
   border: 4px solid salmon;
 }
@@ -115,6 +118,8 @@ hr {
   display: inline-block;
   background-color: #009900;
   color: white;
+  box-sizing: border-box;
+  overflow: visible;
 }
 
 .post-item-title {
@@ -125,8 +130,9 @@ hr {
 }
 
 .post img {
-  display: block;
+  display: inline-block;
   width: 100%;
+  height: 450px;
 }
 .post-item-description {
   padding: 20px;
@@ -142,6 +148,19 @@ hr {
 }
 .post-item-description p {
   font-size: 18px;
+}
+
+/* membuat footer */
+footer{
+  margin-top: 40px;
+  background-color: #ffdead;
+}
+
+.title-footer {
+  text-align: center;
+  padding: 40px;
+  font-size: 20px;
+  color: white;
 }
 
 /* Responsive */
@@ -166,7 +185,7 @@ hr {
     width: 250px;
     height: 100vh;
     top: 70px;
-    background-color: white;
+    background-color: #00b500;
     z-index: 10;
     transform: translateX(-700px);
     transition: 0.2s ease-in-out;
@@ -189,6 +208,10 @@ hr {
   nav ul.open-menu {
     transform: translateX(0);
   }
+.post{
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
 }
 
 /* Medium devices (tablets, 768px and up) */

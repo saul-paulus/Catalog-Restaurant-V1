@@ -1,0 +1,53 @@
+
+    <!-- Mulai membuat content-->
+    <section class="content">
+      <div class="headline-content">
+        <h1 class="headline-title">Explor Restaurant</h1>
+        <div class="post">
+          <article class="post-item">
+            <h2 class="post-item-title">Kota Bandung</h2>
+            <img src="./images/heros/hero-image_1.jpg" width="450" alt="" />
+            <p class="post-item-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Aspernatur atque autem culpa laborum odio similique voluptas. A ab
+              animi ducimus earum explicabo hic molestias repudiandae sunt.
+              Consectetur consequuntur dolorum excepturi, fugit, minus nemo non
+              quae quaerat quod recusandae reprehenderit totam, unde. Aliquid
+              autem doloremque impedit quod tempora tenetur totam vero.
+            </p>
+          </article>
+          <article class="post-item">
+            <h2 class="post-item-title">Kota Bandung</h2>
+            <img src="./images/heros/hero-image_2.jpg" width="450" alt="" />
+            <p class="post-item-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Aspernatur atque autem culpa laborum odio similique voluptas. A ab
+              animi ducimus earum explicabo hic molestias repudiandae sunt.
+              Consectetur consequuntur dolorum excepturi, fugit, minus nemo non
+              quae quaerat quod recusandae reprehenderit totam, unde. Aliquid
+              autem doloremque impedit quod tempora tenetur totam vero.
+            </p>
+          </article>
+          <article class="post-item">
+            <h2 class="post-item-title">Kota Bandung</h2>
+            <img src="./images/heros/hero-image_4.jpg" width="450" alt="" />
+            <p class="post-item-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Aspernatur atque autem culpa laborum odio similique voluptas. A ab
+              animi ducimus earum explicabo hic molestias repudiandae sunt.
+              Consectetur consequuntur dolorum excepturi, fugit, minus nemo non
+              quae quaerat quod recusandae reprehenderit totam, unde. Aliquid
+              autem doloremque impedit quod tempora tenetur totam vero.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!--Akhir membuat content-->
+
+    <!-- mulai membuat footer-->
+    <footer class="footer">
+      <p>Copyright &copy; 2020 - Hunger Apps</p>
+    </footer>
+    <!--Akhir membuat footer-->
+

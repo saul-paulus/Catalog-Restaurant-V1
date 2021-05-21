@@ -114,7 +114,6 @@ hr {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
   gap: 50px;
-  border: 4px solid salmon;
 }
 .post-item {
   display: inline-block;
@@ -153,7 +152,7 @@ hr {
 }
 
 /* membuat footer */
-footer{
+footer {
   margin-top: 40px;
   background-color: #ffdead;
 }
@@ -162,6 +161,25 @@ footer{
   text-align: center;
   padding: 2.5em;
   font-size: 20px;
+}
+
+/* membuat fokus */
+div[tabindex="0"]:focus {
+  outline: 4px solid black;
+}
+/*membuat skip content*/
+.skip-link {
+  position: absolute;
+  top: -70px;
+  left: 0;
+  background-color: #bf1722;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
 }
 
 /* Responsive */
@@ -209,16 +227,15 @@ footer{
   nav ul.open-menu {
     transform: translateX(0);
   }
-.post{
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-}
+  .post {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 
 @media (max-width: 768px) {
-  /* Costume navbar */
 }
 
 /* Large devices (desktops, 992px and up) */

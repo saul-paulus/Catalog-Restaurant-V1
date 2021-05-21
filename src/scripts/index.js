@@ -10,15 +10,13 @@ menuTombol.addEventListener("click", function () {
   navUl.classList.toggle("open-menu");
 });
 
-
-
 // Maping data restaurant
 const listPost = document.querySelector(".post");
 let listRest = "";
 
 dataRestorant.restaurants.forEach((dataRest) => {
   listRest += `
-  <article class="post-item">
+  <article tabindex="0" id="post" class="post-item">
   <h2 class="post-item-title">${dataRest.city}</h2>
   <img src=${dataRest.pictureId} width="450" alt="" />
   <div class="post-item-description">
@@ -28,5 +26,5 @@ dataRestorant.restaurants.forEach((dataRest) => {
   </div>
 </article>
   `;
-listPost.innerHTML = listRest; 
+  listPost.innerHTML = listRest;
 });

@@ -1,5 +1,5 @@
 # Katalog Restaurant App 
----
+
 #### _Front-end Expert Dicoding_
 #### _Submission ke 1_
 Ini adalah aplikasi yang dibangun dengan memanfaatkan API katalog restauran dari dicoding.com App ini merupakan app submission pertama / ke 1 supaya dapat melanjutkan ke materi selanjutnya dari kelas Front-end Expert Dicoding
@@ -14,7 +14,7 @@ Ini adalah aplikasi yang dibangun dengan memanfaatkan API katalog restauran dari
  `- prinsip PWA`
  
 ## Kriteria App
----
+
 App ini dibangun haruslah memenuhi beberapa kriteria ini agar supaya dapat memenuhi persyaratan lulus:
 
 1. App Bar (Navigation Bar)
